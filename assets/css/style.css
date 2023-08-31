@@ -2,7 +2,7 @@
 :root {
     --primary: #323232;
     --secondary: #DDD0C8;
-    --pop: #DDD0C8;
+    --third: #A2DFF0; 
     --text: rgb(18, 17, 17);
 }
 
@@ -66,9 +66,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--pop);
+    background: var(--third);
     color: var(--primary);
     border-radius: 15px;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 /* hero styling start */
@@ -91,7 +92,7 @@ header nav ul li a:hover {
 
 /* utility class styling start */
 .title {
-    border-right: 5px solid var(--pop);
+    border-right: 5px solid var(--third);
     min-height: 100%;
     text-align: right;
     padding-right: 40px;
@@ -118,7 +119,7 @@ header nav ul li a:hover {
     line-height: 1.6;
     width: 90%;
 }
-/* about me section styling end */
+
 
 /* my work section styling start */
 .work {
@@ -237,8 +238,9 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    background: var(--pop);
+    background: var(--third);
     color: var(--secondary);
     border-radius: 15px;
+    transition: background 0.3s ease, color 0.3s ease;
 
 }
