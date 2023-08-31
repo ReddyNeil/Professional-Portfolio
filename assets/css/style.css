@@ -171,7 +171,7 @@ header nav ul li a:hover {
 }
 
 .project2 {
-    background-image: url("../images/placeholder1.png");
+    background-image: url("../images/marketing-project.png");
     background-position: 50% 15%;
 }
 
@@ -244,3 +244,25 @@ footer ul li a:hover {
     transition: background 0.3s ease, color 0.3s ease;
 
 }
+
+/* Media Query for tablet screens and smaller  */
+
+@media screen and (max-width: 768px) {}
+    .hero .quote {
+        font-size: 28px;
+        padding-right: 20px;
+    }
+    
+    .hero .quote #quote-text {
+        font-size: 35px;
+    }
+
+    .title h2 {
+        font-size: 35px;
+    }
+
+    .about-me p {
+        font-size: 16px;
+        /*padding: 0 15px;*/
+        line-height: 1.6;
+    }
